@@ -70,21 +70,6 @@ const AboutPage: React.FC<EmptyProps_t> = () => {
       <HomeButton/>
       <h1>About</h1>
       <p>True Searcher prioritizes answering your questions correctly</p>
-      <section className="two-column-section">
-        <div className="column" style={{padding: '16px'}}>
-          <h2>
-            Google
-          </h2>
-          <img src="gemini.png" alt="Gemini failing basic fashion" style={{maxWidth: "300px"}}></img>
-        </div>
-        <div className="column" style={{padding: '16px'}}>
-          <h2>
-            True Searcher
-          </h2>
-          <img src="gemini.png" alt="Gemini failing basic fashion" style={{maxWidth: "300px"}}></img>
-
-        </div>
-      </section>
     </div>
   )
 }
